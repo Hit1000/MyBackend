@@ -19,7 +19,6 @@ exports.signup = async (req, res) => {
                 message: "User Already Exists",
             })
         }
-
         // Secured password 
         let hashedPassword;
         try {
